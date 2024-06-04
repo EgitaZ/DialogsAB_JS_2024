@@ -2,4 +2,5 @@
 ## Otrā līmeņa virsraksts
 Elektroniska klade  
 Klades aizpildīšana  
-**Basic writing and formatting syntax**
+**Basic writing and formatting syntax**  
+(	/assets/images/electrocat.png)
