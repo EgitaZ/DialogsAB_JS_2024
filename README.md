@@ -1,4 +1,5 @@
 # DialogsAB_JS_2024
 ## Otrā līmeņa virsraksts
 Elektroniska klade  
-Klades aizpildīšana
+Klades aizpildīšana  
+**Basic writing and formatting syntax**
