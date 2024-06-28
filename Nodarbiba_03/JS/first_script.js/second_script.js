@@ -1,5 +1,10 @@
 a = 10;
 console.log("a mainīgā vērtība:" + a);
+{
+    a = 30;
+    var a = 40;
+} 
+console.log("a mainīgā vērtība:" + a);
 /*--------------------------------tests ar var------------------------------*/
 var x = 10;
 console.log("x mainīgā vērtība pirms{}:" + x);
@@ -38,16 +43,25 @@ console.log("y mainīgā vērtība pēc {} un pēc = darbības:" + y);
 const z = 10; 
 console.log("z mainīgā vērtība pirms{}:" + z);
 {
-console.log("z mainīgā vērtība iekš {}:" + z);
-y = 20;
-console.log("z mainīgā vērtība iekš {} un pēc = darbības:" + z);
+// console.log("z mainīgā vērtība iekš {}:" + z);
+// z = 20;
+// console.log("z mainīgā vērtība iekš {} un pēc = darbības:" + z);
 const z = 100;
 console.log("z mainīgā vērtība iekš {} un pēc atkārtotas const:" + z);
 }
 console.log("z mainīgā vērtība pēc {}: " + z);
-z = 30;
-console.log("z mainīgā vērtība pēc {} un pēc = darbības:" + z);
+// z = 30;
+// console.log("z mainīgā vērtība pēc {} un pēc = darbības:" + z);
 // const z = 40;
 // var z = 40;
 // let z = 40; 
 // console.log("z mainīgā vērtība pēc {} un pēc atkārtotas const:" + z);
+
+
+let text = "Some text";
+
+document.getElementById("demo").innerHTML = text;
+
+text = "Some other text";
+
+document.getElementById("demo").innerHTML = text;
