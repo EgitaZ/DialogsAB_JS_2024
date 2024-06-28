@@ -34,3 +34,20 @@ console.log("y mainīgā vērtība pēc {} un pēc = darbības:" + y);
 // var y = 40;
 // const y = 40; 
 // console.log("y mainīgā vērtība pēc {} un pēc atkārtotas let:" + y);
+/*--------------------------------tests ar const------------------------------*/
+const z = 10; 
+console.log("z mainīgā vērtība pirms{}:" + z);
+{
+console.log("z mainīgā vērtība iekš {}:" + z);
+y = 20;
+console.log("z mainīgā vērtība iekš {} un pēc = darbības:" + z);
+const z = 100;
+console.log("z mainīgā vērtība iekš {} un pēc atkārtotas const:" + z);
+}
+console.log("z mainīgā vērtība pēc {}: " + z);
+z = 30;
+console.log("z mainīgā vērtība pēc {} un pēc = darbības:" + z);
+// const z = 40;
+// var z = 40;
+// let z = 40; 
+// console.log("z mainīgā vērtība pēc {} un pēc atkārtotas const:" + z);
