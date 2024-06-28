@@ -15,3 +15,7 @@ text = "Some other text";
 
 document.getElementById("demo").innerHTML = text;
 } 
+
+function myFunction (){
+document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
