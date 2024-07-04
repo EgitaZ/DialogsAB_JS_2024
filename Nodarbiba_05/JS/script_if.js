@@ -39,7 +39,7 @@ if (0.1) {
      document.getElementById("demo").innerHTML = "Good day!";
 }
 */
-console.log((new Date()) .getMillisecondsgetMilli);
+console.log(new Date().getMilliseconds());
 if (now.getHours() > night_hour_b && now.getHours() < morning_hour) {
      document.getElementById("demo").innerHTML = "Good morning!";
 }
@@ -55,11 +55,11 @@ if (now.getHours() > day_hour && now.getHours() < night_hour_a) {
 if (now.getHours() > night_hour_a || now.getHours() < night_hour_b) {
     document.getElementById("demo").innerHTML = "Good night!";
 }
-console.log((new Date()) .getMillisecondsgetMilli);
+console.log(new Date().getMilliseconds());
 
 //if (nosacījums) {darbības} else {darbības;}
 //if (nosacījums) {darbības} else if (nosacījums) {darbības;}
-console.log((new Date()) .getMillisecondsgetMilli);
+console.log(new Date().getMilliseconds());
 if (now.getHours() > night_hour_b && now.getHours() < morning_hour) {
      document.getElementById("demo").innerHTML = "Good morning!";
 }
@@ -72,5 +72,5 @@ else if (now.getHours() > day_hour && now.getHours() < night_hour_a) {
 else if (now.getHours() > night_hour_a || now.getHours() < night_hour_b) {
     document.getElementById("demo").innerHTML = "Good night!";
 }
-console.log((new Date()) .getMillisecondsgetMilli);
+console.log(new Date().getMilliseconds());
 
